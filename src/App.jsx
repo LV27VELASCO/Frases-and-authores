@@ -40,12 +40,18 @@ function App() {
     backgroundColor:colorRandom
   }
 
+  const texColor={
+    color:colorRandom
+  }
+
 return (
     <div className='head' style={fondoColor}>
     <Work
     fraseRandom={fraseRandom}
     colorRandom={colorRandom}
     clickButton={clickButton}
+    texColor={texColor}
+    fondoColor={fondoColor}
     />
     </div>
   )

@@ -5,21 +5,27 @@
 
 #root{
     height: 100vh;
+    
+}
+
+.head{
+    height: inherit;
+    width: inherit;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.head{
-    width: 470px;
+.Card{
+    width: 430px;
     height: 200px;
     padding: 20px;
     display: flex;
     justify-content: center;
     border-radius: 20px;
-    color: whitesmoke;
     font-family:'Poppins', sans-serif;
     position: relative;
+    background-color: whitesmoke;
 }
 
 
@@ -29,6 +35,13 @@
     height: 150px;
     text-align: center;
 }
+
+.containerfrase>p>i{
+    font-size: 23px;
+}
+
+
+
 
 .autor{
     width: 90%;
@@ -49,14 +62,14 @@
 }
 
 button{
-    background-color: transparent;
+    border-radius: 50%;
     border:none;
     cursor: pointer;
-    height: auto;
+    padding: 6px;
 }
 
 button>i{
-    font-size:40px;
+    font-size:28px;
     color: whitesmoke;
 }
 
